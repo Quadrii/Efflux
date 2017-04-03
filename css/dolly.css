@@ -10,6 +10,19 @@
 .drop{
   color: #fff !important;
 }
+.dropdownmenu{
+  padding: 20px !important;
+}
+.home{
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
 body {
     position: relative;
     overflow-x: hidden;
