@@ -1,17 +1,17 @@
 <!doctype html>
 <html>
     <head>
-        <title>Efflux|Home</title>
+        <title>Efflux</title>
         <link rel="stylesheet" href="css/dolly.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="js/bootstrap.js">
-        <link rel="stylesheet" href="js/jquery-1.11.1.min.js">
-        <link rel="stylesheet" href="angular.min.js">
-        <meta charset="utf-8">
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script type="text/javascript">
             jQuery(document).ready(function($) {
                 $(".scroll").click(function(event){     
@@ -22,49 +22,54 @@
         </script>
     </head>
 <body>
-    <div id="wrapper">
-    <div class="overlay"></div>
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-        <ul class="nav sidebar-nav">
-            <li class="sidebar-brand">
-                <div class="logo">
-                    
-                </div>
-            </li>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Events</a>
-            </li>
-            <li>
-                <a href="#">Team</a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li class="dropdown-header">Dropdown heading</li>
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/maridlcrmn">Follow me</a>
-            </li>
-        </ul>
-    </nav>
+            <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                   <div class="logo">
+                       
+                   </div>
+                </li>
+                <li>
+                    <a href="#" class="link">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="link">About</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Events</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Team</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle link" data-toggle="dropdown">Works <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Dropdown heading</li>
+                    <li><a href="#" class="drop">Action</a></li>
+                    <li><a href="#" class="drop">Another action</a></li>
+                    <li><a href="#" class="drop">Something else here</a></li>
+                    <li><a href="#" class="drop">Separated link</a></li>
+                    <li><a href="#" class="drop">One more separated link</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a href="#" class="link">Services</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Contact</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/maridlcrmn" class="link">Follow me</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
         <div id="page-content-wrapper">
             <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
                 <span class="hamb-top"></span>
@@ -84,8 +89,10 @@
                 </div>
             </div>
         </div>
+        <!-- /#page-content-wrapper -->
+
     </div>
-    
+    <!-- /#wrapper -->
     <script>
         $(document).ready(function () {
   var trigger = $('.hamburger'),
@@ -116,6 +123,5 @@
   });  
 });
     </script>
-
 </body>
 </html>
