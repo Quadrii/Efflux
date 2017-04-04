@@ -2,7 +2,12 @@
 <html>
     <head>
         <title>Efflux</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+        <link href="2/ninja-slider.css" rel="stylesheet" type="text/css" />
+        <script src="2/ninja-slider.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/dolly.css">
+        <link rel="stylesheet" href="css/q.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
@@ -20,79 +25,120 @@
                 });
             });
         </script>
+
+        <style>
+        body {font: normal 0.9em Arial;margin:0;}
+        a {color:#1155CC;}
+        ul li {padding: 10px 0;}
+        header {display:block;padding:60px 0 20px;text-align:center;position:absolute;top:8%;left:8%;z-index:4;}
+        header a {
+            font-family: sans-serif;
+            font-size: 24px;
+            line-height: 24px;
+            padding: 8px 13px 7px;
+            color: #fff;
+            text-decoration:none;
+            transition: color 0.7s;
+        }
+        header a.active {
+            font-weight:bold;
+            width: 24px;
+            height: 24px;
+            padding: 4px;
+            text-align: center;
+            display:inline-block;
+            border-radius: 50%;
+/*            background: #C00;
+*/            color: #fff;
+        }
+    </style>
     </head>
 <body>
-            <div id="wrapper">
+    <div id="wrapper">
         <div class="overlay"></div>
-    
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                   <div class="logo">
+            <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+                <ul class="nav sidebar-nav">
+                    <li class="sidebar-brand">
+                        <div class="logo">
                        
-                   </div>
-                </li>
-                <li class="home">
-                    <a href="#" class="link">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="link">About</a>
-                </li>
-                <li>
-                    <a href="#" class="link">Events</a>
-                </li>
-                <li>
-                    <a href="#" class="link">Team</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle link" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-<!--                     <li class="dropdown-header">Dropdown heading</li>
- -->                    <li><a href="#" class="drop">Action</a></li>
-                    <li><a href="#" class="drop">Another action</a></li>
-                    <li><a href="#" class="drop">Something else here</a></li>
-                    <li><a href="#" class="drop">Separated link</a></li>
-                    <li><a href="#" class="drop">One more separated link</a></li>
-                  </ul>
-                </li>
-                <li>
-                    <a href="#" class="link">Services</a>
-                </li>
-                <li>
-                    <a href="#" class="link">Contact</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/maridlcrmn" class="link">Follow me</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
+                        </div>
+                    </li>
+                    <li class="home">
+                        <a href="#" class="link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Team</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle link" data-toggle="dropdown">Works <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#" class="drop">Action</a></li>
+                            <li><a href="#" class="drop">Another action</a></li>
+                            <li><a href="#" class="drop">Something else here</a></li>
+                            <li><a href="#" class="drop">Separated link</a></li>
+                            <li><a href="#" class="drop">One more separated link</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/maridlcrmn" class="link">Follow me</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="page-content-wrapper">
+                <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div>
+        </div>
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-                <span class="hamb-middle"></span>
-                <span class="hamb-bottom"></span>
-            </button>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h1>Fancy Toggle Sidebar Navigation</h1>
-                        <p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham hock pork belly bacon pork loin salami pork chop shank corned beef tenderloin meatball cow. Pork bresaola meatloaf tongue, landjaeger tail andouille strip steak tenderloin sausage chicken tri-tip. Pastrami tri-tip kielbasa sausage porchetta pig sirloin boudin rump meatball andouille chuck tenderloin biltong shank </p>
-                        <p>Pig meatloaf bresaola, spare ribs venison short loin rump pork loin drumstick jowl meatball brisket. Landjaeger chicken fatback pork loin doner sirloin cow short ribs hamburger shoulder salami pastrami. Pork swine beef ribs t-bone flank filet mignon, ground round tongue. Tri-tip cow turducken shank beef shoulder bresaola tongue flank leberkas ball tip.</p>
-                        <p>Filet mignon brisket pancetta fatback short ribs short loin prosciutto jowl turducken biltong kevin pork chop pork beef ribs bresaola. Tongue beef ribs pastrami boudin. Chicken bresaola kielbasa strip steak biltong. Corned beef pork loin cow pig short ribs boudin bacon pork belly chicken andouille. Filet mignon flank turkey tongue. Turkey ball tip kielbasa pastrami flank tri-tip t-bone kevin landjaeger capicola tail fatback pork loin beef jerky.</p>
-                        <p>Chicken ham hock shankle, strip steak ground round meatball pork belly jowl pancetta sausage spare ribs. Pork loin cow salami pork belly. Tri-tip pork loin sausage jerky prosciutto t-bone bresaola frankfurter sirloin pork chop ribeye corned beef chuck. Short loin hamburger tenderloin, landjaeger venison porchetta strip steak turducken pancetta beef cow leberkas sausage beef ribs. Shoulder ham jerky kielbasa. Pig doner short loin pork chop. Short ribs frankfurter rump meatloaf.</p>
-                        <p>Filet mignon biltong chuck pork belly, corned beef ground round ribeye short loin rump swine. Hamburger drumstick turkey, shank rump biltong pork loin jowl sausage chicken. Rump pork belly fatback ball tip swine doner pig. Salami jerky cow, boudin pork chop sausage tongue andouille turkey.</p>                         
-                    </div>
+        <div id="ninja-slider">
+            <div class="slider-inner">
+                <ul>
+                    <li>
+                        <a class="ns-img" href="img/back.jpg"></a>
+                     </li>
+                    <li>
+                        <a class="ns-img" href="img/e3.jpg"></a>
+                        </li>
+                    <li>
+                        <a class="ns-img" href="img/e4.jpg"></a>
+                        </li>
+                    <li>
+                        <a class="ns-img" href="img/test.jpg"></a>
+                        </li>
+                    <li>
+                        <a class="ns-img" href="img/e5.jpg"></a>
+                        </li>
+                </ul>
+                <div class="navsWrapper">
+                    <div id="ninja-slider-prev"></div>
+                    <div id="ninja-slider-next"></div>
                 </div>
             </div>
         </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
+        <div class="row">
+            <div class="col-md-12">
+               <div class="banner-image22">
+                        <p class="item-1">This is your last chance. After this, there is no turning back.</p>
+                        <p class="item-2">You take the blue pill - the story ends, you wake up in your bed and believe whatever you want to believe.</p>
+                        <p class="item-3">You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.</p>
+                </div>
+            </div>
+        </div> 
     <script>
         $(document).ready(function () {
   var trigger = $('.hamburger'),
