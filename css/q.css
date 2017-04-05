@@ -1,0 +1,70 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.banner-image22{
+	// background-image: url(../img/test.jpg);
+	// background-size: 100% auto;
+	// background-repeat: no-repeat;
+	// height: 200px;
+	background: #4995CC;
+	height: 100px;
+	margin-top: -10px !important;
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 6px;
+	color: #fff;
+	font-size: 20px;
+	right: 20px;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { bounceInDown: -100%; opacity: 0; }
+  8.3%,25% { bounceInDown: 25%; opacity: 1; }
+  33.33%, 100% { bounceInDown: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { bounceInDown: -100%; opacity: 0; }
+  41.63%, 58.29% { bounceInDown: 25%; opacity: 1; }
+  66.66%, 100% { bounceInDown: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { bounceInDown: -100%; opacity: 0; }
+  74.96%, 91.62% { bounceInDown: 25%; opacity: 1; }
+  100% { bounceInDown: 110%; opacity: 0; }
+}
+
+.main_our{
+	background-image:url(../images/.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 300px;
+}
