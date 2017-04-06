@@ -3,12 +3,17 @@
     <head>
         <title>Efflux</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="angular.min.js"></script>
+        <link rel="stylesheet" href="css/font/font.css">
         <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
         <link href="2/ninja-slider.css" rel="stylesheet" type="text/css" />
         <script src="2/ninja-slider.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/dolly.css">
         <link rel="stylesheet" href="css/q.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,8 +57,15 @@
 */            color: #fff;
         }
     </style>
+    <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
     </head>
-<body>
+<body ng-app="myApp" ng-controller="myCtrl" data-ng-init="firstName='Mr Q' ; myCol='red' quantity='1;cost=5'">
     <div id="wrapper">
         <div class="overlay"></div>
             <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
@@ -64,32 +76,19 @@
                         </div>
                     </li>
                     <li class="home">
-                        <a href="#" class="link">Home</a>
+                        <a href="#" class="link" style="font-family: Museo;">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="link">About</a>
+                        <a href="#" class="link" style="font-family: Museo;">About</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Events</a>
+                        <a href="#" class="link" style="font-family: Museo;">Services</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Team</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle link" data-toggle="dropdown">Works <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#" class="drop">Action</a></li>
-                            <li><a href="#" class="drop">Another action</a></li>
-                            <li><a href="#" class="drop">Something else here</a></li>
-                            <li><a href="#" class="drop">Separated link</a></li>
-                            <li><a href="#" class="drop">One more separated link</a></li>
-                        </ul>
+                        <a href="#" class="link" style="font-family: Museo;">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Services</a>
-                    </li>
-                    <li>
-                        <a href="#" class="link">Contact</a>
+                        <a href="#" class="link" style="font-family: Museo;">Contact</a>
                     </li>
                     <li>
                         <a href="https://twitter.com/maridlcrmn" class="link">Follow me</a>
@@ -103,42 +102,97 @@
                     <span class="hamb-bottom"></span>
                 </button>
             </div>
-        </div>
+    </div>
+    <div class="">
+            <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+               <div class="item--1">
+                   
+               </div>
+              </div>
 
-        <div id="ninja-slider">
-            <div class="slider-inner">
-                <ul>
-                    <li>
-                        <a class="ns-img" href="img/back.jpg"></a>
-                     </li>
-                    <li>
-                        <a class="ns-img" href="img/e3.jpg"></a>
-                        </li>
-                    <li>
-                        <a class="ns-img" href="img/e4.jpg"></a>
-                        </li>
-                    <li>
-                        <a class="ns-img" href="img/test.jpg"></a>
-                        </li>
-                    <li>
-                        <a class="ns-img" href="img/e5.jpg"></a>
-                        </li>
-                </ul>
-                <div class="navsWrapper">
-                    <div id="ninja-slider-prev"></div>
-                    <div id="ninja-slider-next"></div>
+              <div class="item">
+                <div class="item--2">
+                    
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="item--3">
+                    
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item--4">
+                    
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="" style="background:#0096AD;height: 100px;font-family: Museo; display: inline-block; width: 100%;background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div>
+                        <p class="cont" style="color: #fff; font-size: 20px;font-family: Museo;">{{theDate}}</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="div">
+                       <p style="font-size: 20px;color: #fff;">OUR BUSINESS IS TO MAKE YOUR BUSINESS OUTSTANDING</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div>
+                        <p class="cont" style="color: #fff; font-size: 20px;font-family: Museo;">{{theTime}}</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-               <div class="banner-image22">
-                        <p class="item-1">This is your last chance. After this, there is no turning back.</p>
-                        <p class="item-2">You take the blue pill - the story ends, you wake up in your bed and believe whatever you want to believe.</p>
-                        <p class="item-3">You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.</p>
+    </div>
+    <div class="main-banner">
+        <div class="container">
+            <div class="row">
+                <h1 class="h1">HOW IT WORKS</h1>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-envelope-open fa-stack-1x"></i>
+                    </span>
+                    <h2 class="h2">POST A JOB</h2>
+                    <p class="p1">Tell us about your project. Is it a website design or web application design or a logo design or content write up? How urgent would you like to have it?</p> 
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-user-o fa-stack-1x"></i>
+                    </span>
+                    <h2 class="h2">Talk To An Expert</h2>
+                    <p class="p2">We'll match you with an expert to brainstorm and help you put together a workable plan with an affordable budget.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-envelope-open fa-stack-1x"></i>
+                    </span>
+                    <h2 class="h2">Get The Work Done</h2>
+                    <p class="p3">Sit back, relax and get updates on your project. We are confident based on our expertise and experience that you will be delighted.</p> 
                 </div>
             </div>
-        </div> 
+        </div>
+    </div>
+    <div class="banner">
+        <div class="bann">
+            <div class="container">
+                <h2>s</h2>
+            </div>
+        </div>
+    </div>
     <script>
         $(document).ready(function () {
   var trigger = $('.hamburger'),
@@ -169,5 +223,36 @@
   });  
 });
     </script>
+    <script>
+      var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope, $interval, $timeout , $interval , $http) {
+            $scope.theDate = new Date().toLocaleDateString();
+            $interval(function () {
+                $scope.theDate = new Date().toLocaleDateString();
+            }, 1000);
+
+            $scope.myHeader = "Hello World!";
+          $timeout(function () {
+              $scope.myHeader = "How are you today Q?";
+          }, 2000);
+           
+          $scope.theTime = new Date().toLocaleTimeString();
+    $interval(function () {
+        $scope.theTime = new Date().toLocaleTimeString();
+    }, 1000);
+
+     $http({
+        method : "GET",
+        url : "welcome.html"
+    }).then(function mySucces(response) {
+        $scope.myWelcome = response.data;
+    }, function myError(response) {
+        $scope.myWelcome = response.statusText;
+    });
+    
+
+        });
+    </script>
+    
 </body>
 </html>
