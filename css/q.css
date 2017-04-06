@@ -120,7 +120,9 @@ th{
 	margin-bottom: 0px !important;
 	border-bottom-width: 0px !important;
 	padding-bottom: 0px !important;
-	font-family: Museo;
+	font-family: Museo !important;
+	color: #fff !important;
+	text-align: center;
 }
 .h2{
 	color: #fff !important;
