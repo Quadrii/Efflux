@@ -17,9 +17,9 @@ body{
 .item-1, 
 .item-2, 
 .item-3 {
-	// position: absolute;
- //  display: block;
-	// top: 6px;
+	position: absolute;
+  	display: block;
+	top: 6px;
 	color: #fff;
 	font-size: 25px;
   	width: 100%;
@@ -129,6 +129,13 @@ th{
 	font-weight: bold;
 	font-family: Museo  !important;
 }
+.h21{
+	color: #fff !important;
+	font-weight: bold;
+	font-family: Museo  !important;
+	text-align: center !important;
+	padding: 40px;
+}
 .p1{
 	color: #fff;
 	font-size: 15px;
@@ -143,4 +150,18 @@ th{
 	color: #fff;
 	font-size: 15px;
 	font-family: Museo;
+}
+.fa-user-o:hover{
+	color: blue !important;
+	background: white;
+
+}
+.fa-envelope-open:hover{
+	color: blue !important;
+	background: white;
+
+}
+.fa-check:hover{
+	color: blue !important;
+	background: white;
 }
