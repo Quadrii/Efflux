@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="angular.min.js"></script>
         <link rel="stylesheet" href="css/animate.css">
+        <script src="js/modernizr.custom.js"></script>
         <link rel="stylesheet" href="css/font/font.css">
         <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/dolly.css">
@@ -87,14 +88,14 @@
                         <a href="#" class="link" style="font-family: Museo;">Contact</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle link" data-toggle="dropdown" style="font-family: Museo;">Follow me<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle link" data-toggle="dropdown" style="font-family: Museo;">Follow us<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#" class="link" style="font-family: Museo;">facebook</a></li>
                             <li><a href="#" class="link" style="font-family: Museo; color: white;">twitter</a></li>
-                            <!-- <li><a href="#">Something else here</a></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li> -->
-                        </ul>
+                            <li><a href="#" class="link" style="font-family: Museo;color: white;">Instagram</a></li>
+                            <li><a href="#" class="link" style="font-family: Museo;color: white;">Linkedin</a></li>
+<!--                             <li><a href="#">One more separated link</a></li>
+ -->                    </ul>
                     </li>
                 </ul>
             </nav>
@@ -137,22 +138,22 @@
         </div>
     </div>
  
-    <div class="" style="background:#0096AD;height: 100px;font-family: Museo; display: inline-block; width: 100%;background-size: cover;">
+    <div class="" style="background:#fff;padding: 50px 0px;font-family: Museo; display: inline-block; width: 100%;background-size: cover;text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
                     <div>
-                        <p class="cont" style="color: #fff; font-size: 20px;font-family: Museo;">{{theDate}}</p>
+                        <p class="cont" style="color: #FCB11A; font-size: 20px;font-family: Museo;font-weight: bold;">{{theDate}}</p>
                     </div>
                 </div>
                 <div class="col-md-8">
                     <div class="div">
-                       <p style="font-size: 20px;color: #fff;">OUR BUSINESS IS TO MAKE YOUR BUSINESS OUTSTANDING</p>
+                       <p style="font-size: 20px;color: #000;">OUR BUSINESS IS TO MAKE YOUR BUSINESS OUTSTANDING</p>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div>
-                        <p class="cont" style="color: #fff; font-size: 20px;font-family: Museo;">{{theTime}}</p>
+                        <p class="cont" style="color: #FCB11A; font-size: 20px;font-family: Museo;font-weight: bold;">{{theTime}}</p>
                     </div>
                 </div>
             </div>
@@ -196,9 +197,35 @@
             </div>
         </div>
     </div>
+    <div class=main_banner>
+        <div class="">
+            <div class="row">
+                <div class="col-md-6" style="padding-right: 0px !important;padding-left: 0px !important;">
+                    <div class="first">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6"  style="padding-left: 0px !important; padding-right: 0px !important;margin-top: -20px">
+                   <ul class="grid cs-style-4">
+                        <li>
+                            <figure>
+                                <div><img src="images/outsourceit.png" alt="img05"></div>
+                                <figcaption>
+                                    <h3>Check Out</h3>
+                                    <span>Some Of Our Works</span>
+                                    <a href="">Here</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script>
-        $(document).ready(function () {
-  var trigger = $('.hamburger'),
+            $(document).ready(function () {
+         var trigger = $('.hamburger'),
       overlay = $('.overlay'),
      isClosed = false;
 
@@ -233,11 +260,6 @@
             $interval(function () {
                 $scope.theDate = new Date().toLocaleDateString();
             }, 1000);
-
-            $scope.myHeader = "Hello World!";
-          $timeout(function () {
-              $scope.myHeader = "How are you today Q?";
-          }, 2000);
            
           $scope.theTime = new Date().toLocaleTimeString();
     $interval(function () {
@@ -256,6 +278,6 @@
 
         });
     </script>
-    
+    <script src="js/toucheffects.js"></script>
 </body>
 </html>
