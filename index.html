@@ -31,7 +31,8 @@
         <style>
         body {font: normal 0.9em Arial;margin:0;}
         a {color:#1155CC;}
-        ul li {padding: 10px 0;}
+        ul 
+        .class {padding: 10px 0;}
         header {display:block;padding:60px 0 20px;text-align:center;position:absolute;top:8%;left:8%;z-index:4;}
         header a {
             font-family: sans-serif;
@@ -72,28 +73,28 @@
                        
                         </div>
                     </li>
-                    <li class="home">
-                        <a href="#" class="link" style="font-family: Museo;">Home</a>
+                    <li class="home class">
+                        <a href="#" class="link" style="font-family: Museo;">Home <i class="fa fa-home socia link" aria-hidden="true"></i></a>
                     </li>
-                    <li>
+                    <li class="class" >
                         <a href="#" class="link" style="font-family: Museo;">About</a>
                     </li>
-                    <li>
+                    <li class="class" >
                         <a href="#" class="link" style="font-family: Museo;">Services</a>
                     </li>
-                    <li>
+                    <li class="class" >
                         <a href="#" class="link" style="font-family: Museo;">Portfolio</a>
                     </li>
-                    <li>
+                    <li class="class" >
                         <a href="#" class="link" style="font-family: Museo;">Contact</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown class="class" ">
                         <a href="#" class="dropdown-toggle link" data-toggle="dropdown" style="font-family: Museo;">Follow us<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#" class="link" style="font-family: Museo;">facebook</a></li>
-                            <li><a href="#" class="link" style="font-family: Museo; color: white;">twitter</a></li>
-                            <li><a href="#" class="link" style="font-family: Museo;color: white;">Instagram</a></li>
-                            <li><a href="#" class="link" style="font-family: Museo;color: white;">Linkedin</a></li>
+                            <li class="class" ><a href="#" class="link" style="font-family: Museo;">facebook</a></li>
+                            <li class="class" ><a href="#" class="link" style="font-family: Museo; color: white;">twitter</a></li>
+                            <li class="class" ><a href="#" class="link" style="font-family: Museo;color: white;">Instagram</a></li>
+                            <li class="class" ><a href="#" class="link" style="font-family: Museo;color: white;">Linkedin</a></li>
 <!--                             <li><a href="#">One more separated link</a></li>
  -->                    </ul>
                     </li>
@@ -107,7 +108,7 @@
                 </button>
             </div>
     </div>
-    <div class="">
+    <div class="" style="margin-top:-10px;">
             <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
@@ -138,7 +139,7 @@
         </div>
     </div>
  
-    <div class="" style="background:#fff;padding: 50px 0px;font-family: Museo; display: inline-block; width: 100%;background-size: cover;text-align: center;">
+    <div class="" style="background:#fff;padding: 40px 0px;font-family: Museo; display: inline-block; width: 100%;background-size: cover;text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
@@ -205,14 +206,14 @@
                         
                     </div>
                 </div>
-                <div class="col-md-6"  style="padding-left: 0px !important; padding-right: 0px !important;margin-top: -20px">
+                <div class="col-md-6"  style="padding-left: 0px !important; padding-right: 0px !important;">
                    <ul class="grid cs-style-4">
                         <li>
                             <figure>
                                 <div><img src="images/outsourceit.png" alt="img05"></div>
                                 <figcaption>
                                     <h3>Check Out</h3>
-                                    <span>Some Of Our Works</span>
+                                    <span class="span" style="text-align: center !important;">Some Of Our Works</span>
                                     <a href="">Here</a>
                                 </figcaption>
                             </figure>
@@ -223,6 +224,20 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <h1 class="give">give us a call (+234) 8140396480</h1>
+                <ul style="text-align: center;">
+                    <li class="soci"><a href="" class="socia"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="soci"><a href="" class="socia"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="soci"><a href="" class="socia"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="soci"><a href="" class="socia"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+                <p style="color:#fff;font-size: 15px;font-family: Museo;text-align: center;">copyright&copy; 2016 Effluxcompany</p>
+            </div>
+        </div>
+    </footer>
     <script>
             $(document).ready(function () {
          var trigger = $('.hamburger'),

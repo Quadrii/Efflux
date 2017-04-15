@@ -116,7 +116,7 @@ th{
 }
 
 .h1{
-	margin: 20px !important;
+	margin:0px !important;
 	border-bottom-width: 0px !important;
 	padding-bottom: 0px !important;
 	font-family: Museo !important;
@@ -152,7 +152,7 @@ th{
 .fa-user-o:hover{
 	color: blue !important;
 	background: white;
-	animation-duration: 20s;
+	animation-duration: 50s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 	animation-name: anim-1;
@@ -171,7 +171,7 @@ th{
 .fa-envelope-open:hover{
 	color: blue !important;
 	background: white;
-	animation-duration: 20s;
+	animation-duration: 50s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 	animation-name: anim-1;
@@ -180,7 +180,7 @@ th{
 .fa-check:hover{
 	color: blue !important;
 	background: white;
-	animation-duration: 20s;
+	animation-duration: 50s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 	animation-name: anim-1;
@@ -190,7 +190,7 @@ th{
 	background-size:100% auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 300px;
+	height: 313px;
 }
 .first:hover{
 	background-image: url(../images/studio.png);
@@ -198,7 +198,7 @@ th{
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.6;
-	height: 300px;
+	height: 313px;
 	animation-duration: 50s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
@@ -238,7 +238,26 @@ th{
 	background: black;
 	opacity: 0.6;
 }
-
+.give{
+	font-size: 15px;
+	font-family: Museo !important;
+	text-align: center;
+	color: #fff;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+footer{
+	background: #000;
+	height: auto;
+}
+.socia{
+	font-size: 30px;
+	color: #fff;
+}
+.soci{
+	display: inline-block;
+	margin: 10px;
+}
 .grid {
 	// padding: 20px 20px 100px 20px;
 	max-width: 1300px;
@@ -251,7 +270,7 @@ th{
 	display: inline-block;
 	width: 100%;
 	margin: 0;
-	padding: 20px;
+	// padding: 20px;
 	text-align: left;
 	position: relative;
 }
@@ -279,19 +298,35 @@ th{
 .grid figcaption h3 {
 	margin: 0;
 	padding: 0;
+	font-size: 40px;
+	font-family: Museo !important;
 	color: #fff;
+	text-align: center;
 }
 
 .grid figcaption span:before {
 	content:;
 }
-
+.span{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Museo !important;
+	margin: 66px;
+	
+}
 .grid figcaption a {
 	text-align: center;
-	padding: 5px 10px;
+	// height: 30px;
+	font-size: 10px;
+	font-weight: bold;
+	// width: 60px;
+	padding: 20px 30px;
+	font-size: 15px;
 	border-radius: 2px;
 	display: inline-block;
 	background: #ed4e6e;
+	cursor: pointer;
+	font-family: Museo !important;
 	color: #fff;
 }
 .cs-style-4 li {
