@@ -310,9 +310,7 @@ footer{
 .span{
 	font-size: 15px;
 	font-weight: bold;
-	font-family: Museo !important;
-	margin: 66px;
-	
+	font-family: Museo !important;	
 }
 .grid figcaption a {
 	text-align: center;

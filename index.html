@@ -30,39 +30,38 @@
         </script>
         
         <style>
-        body {font: normal 0.9em Arial;margin:0;}
-        a {color:#1155CC;}
-        ul 
-        .class {padding: 10px 0;}
-        header {display:block;padding:60px 0 20px;text-align:center;position:absolute;top:8%;left:8%;z-index:4;}
-        header a {
-            font-family: sans-serif;
-            font-size: 24px;
-            line-height: 24px;
-            padding: 8px 13px 7px;
-            color: #fff;
-            text-decoration:none;
-            transition: color 0.7s;
-        }
-        header a.active {
-            font-weight:bold;
-            width: 24px;
-            height: 24px;
-            padding: 4px;
-            text-align: center;
-            display:inline-block;
-            border-radius: 50%;
-/*            background: #C00;
-*/            color: #fff;
-        }
-    </style>
-    <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-  </style>
+            body {font: normal 0.9em Arial;margin:0;}
+            a {color:#1155CC;}
+            ul 
+            .class {padding: 10px 0;}
+            header {display:block;padding:60px 0 20px;text-align:center;position:absolute;top:8%;left:8%;z-index:4;}
+            header a {
+                font-family: sans-serif;
+                font-size: 24px;
+                line-height: 24px;
+                padding: 8px 13px 7px;
+                color: #fff;
+                text-decoration:none;
+                transition: color 0.7s;
+            }
+            header a.active {
+                font-weight:bold;
+                width: 24px;
+                height: 24px;
+                padding: 4px;
+                text-align: center;
+                display:inline-block;
+                border-radius: 50%;
+                color: #fff;
+            }
+        </style>
+        <style>
+          .carousel-inner > .item > img,
+          .carousel-inner > .item > a > img {
+              width: 70%;
+              margin: auto;
+          }
+        </style>
     </head>
 <body ng-app="myApp" ng-controller="myCtrl" data-ng-init="firstName='Mr Q' ; myCol='red' quantity='1;cost=5'">
     <div id="wrapper">
@@ -70,7 +69,7 @@
             <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
                 <ul class="nav sidebar-nav">
                     <li class="sidebar-brand">
-                        <div class="logo">
+                        <div class="logo_logo">
                        
                         </div>
                     </li>
@@ -214,8 +213,8 @@
                                 <div><img src="images/outsourceit.png" alt="img05"></div>
                                 <figcaption>
                                     <h3>Check Out</h3>
-                                    <span class="span" style="text-align: center !important;">Some Of Our Works</span>
-                                    <a href="">Here</a>
+                                    <div class="span" style="text-align: center !important;">Some Of Our Works</div>
+                                    <a href="" style="text-decoration: none;">HERE</a>
                                 </figcaption>
                             </figure>
                         </li>
@@ -240,35 +239,36 @@
         </div>
     </footer>
     <script>
-            $(document).ready(function () {
-         var trigger = $('.hamburger'),
-      overlay = $('.overlay'),
-     isClosed = false;
-
-    trigger.click(function () {
-      hamburger_cross();      
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {          
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
+        $(document).ready(function () {
+        var trigger = $('.hamburger'),
+        overlay = $('.overlay'),
         isClosed = false;
-      } else {   
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
-      }
-  }
-  
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
+
+        trigger.click(function () {
+          hamburger_cross();      
+        });
+
+        function hamburger_cross() {
+
+          if (isClosed == true) {          
+            overlay.hide();
+            trigger.removeClass('is-open');
+            trigger.addClass('is-closed');
+            isClosed = false;
+          } else {   
+            overlay.show();
+            trigger.removeClass('is-closed');
+            trigger.addClass('is-open');
+            isClosed = true;
+          }
+        }
+      
+          $('[data-toggle="offcanvas"]').click(function () {
+                $('#wrapper').toggleClass('toggled');
+          });  
+        });
     </script>
+
     <script>
       var app = angular.module('myApp', []);
         app.controller('myCtrl', function($scope, $interval, $timeout , $interval , $http) {
@@ -277,21 +277,19 @@
                 $scope.theDate = new Date().toLocaleDateString();
             }, 1000);
            
-          $scope.theTime = new Date().toLocaleTimeString();
-    $interval(function () {
-        $scope.theTime = new Date().toLocaleTimeString();
-    }, 1000);
+            $scope.theTime = new Date().toLocaleTimeString();
+            $interval(function () {
+                $scope.theTime = new Date().toLocaleTimeString();
+            }, 1000);
 
-     $http({
-        method : "GET",
-        url : "welcome.html"
-    }).then(function mySucces(response) {
-        $scope.myWelcome = response.data;
-    }, function myError(response) {
-        $scope.myWelcome = response.statusText;
-    });
-    
-
+            $http({
+                method : "GET",
+                url : "welcome.html"
+            }).then(function mySucces(response) {
+                $scope.myWelcome = response.data;
+            }, function myError(response) {
+                $scope.myWelcome = response.statusText;
+            });
         });
     </script>
     <script src="js/toucheffects.js"></script>
