@@ -193,15 +193,16 @@ th{
 	height: 313px;
 }
 .first:hover{
-	background-image: url(../images/studio.png);
+	background-image: url(../images/efflux.jpg);
 	background-size:100% auto;
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.6;
 	height: 313px;
-	animation-duration: 50s;
+	animation-duration: 20s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
+	animation-fill-mode:backwards;
 	animation-name: anim-1;
 }
 
@@ -251,7 +252,7 @@ footer{
 	height: auto;
 }
 .socia{
-	font-size: 30px;
+	font-size: 50px;
 	color: #fff;
 }
 .soci{
@@ -310,9 +311,8 @@ footer{
 .span{
 	font-size: 15px;
 	font-weight: bold;
-	font-family: Museo !important;
-	margin: 66px;
-	
+	margin: 66px;	
+	font-family: Museo !important;	
 }
 .grid figcaption a {
 	text-align: center;
@@ -321,6 +321,7 @@ footer{
 	font-weight: bold;
 	// width: 60px;
 	padding: 20px 30px;
+	text-decoration: none;
 	font-size: 15px;
 	border-radius: 2px;
 	display: inline-block;
