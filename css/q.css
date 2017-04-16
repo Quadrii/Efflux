@@ -64,6 +64,9 @@ table{
 th{
 	text-align: center;
 }
+td{
+	text-align: center;
+}
 .main-banner{
 	background:black;
 	padding: 50px 0px;
