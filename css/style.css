@@ -1626,6 +1626,26 @@ span.glyphicon.glyphicon-comment, span.glyphicon.glyphicon-eye-open, span.glyphi
     padding: 2em 2em;
     background: #fff;
 }
+footer{
+    background: #000;
+    height: auto;
+}
+.give{
+    font-size: 15px;
+    font-family: Museo !important;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.soca{
+    font-size: 30px !important;
+    color: #fff !important;
+}
+.soc{
+    display: inline-block !important;
+    margin: 10px !important;
+}
 /*-- //blog --*/
 /*-- responsive design --*/
 @media (max-width:1024px) {

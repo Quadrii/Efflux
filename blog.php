@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/font/font.css">
     <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/dolly.css">
-    <link rel="stylesheet" href="css/q.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -432,6 +431,23 @@
             <!-- technology-right -->
         </div>
     </div>
+
+    <footer style="padding: 20px 0px;">
+        <div class="container">
+            <div class="row">
+                <h1 class="give">give us a call (+234) 8140396480</h1>
+                <ul style="text-align: center;">
+                    <li class="soc"><a href="" class="soca"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="soc"><a href="" class="soca"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="soc"><a href="" class="soca"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="soc"><a href="" class="soca"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+                <p style="color:#fff;font-size: 15px;font-family: Museo;text-align: center;">
+                    copyright&copy; 2016 Effluxcompany
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <script>
         $(document).ready(function () {
