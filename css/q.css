@@ -4,6 +4,7 @@
 }
 body{
 	font-family: Museo;
+	background-color:#eee !important;
 }
 .banner-image22{
 	// background-image: url(../img/test.jpg);
@@ -190,7 +191,7 @@ td{
 	animation-name: anim-1;
 }
 .first{
-	background-image: url(../images/first.jpg);
+	background-image: url(../images/first1.jpg);
 	background-size:100% auto;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -399,4 +400,57 @@ footer{
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
+}
+
+
+
+
+
+
+.bann-wrap{
+	background-image: url(../images/cost.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	background-size: cover;
+	height: 500px;
+	// -webkit-filter: brightness(3);
+ //  filter: brightness(3);
+}
+.make{
+	color: #fff !important;
+	font-family: Museo  !important;
+	padding: 100px;
+	letter-spacing: 5px;
+	word-spacing: 3px;
+}
+.cont-div{
+	background: #fff;
+	margin-left: 150px !important;
+	margin-right: 150px !important;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+.mission{
+	text-align: center;
+	font-family: Museo;
+	text-transform: uppercase;
+}
+.sion{
+	text-align: center;
+	font-family: Museo;
+	font-size: 20px;
+}
+th{
+	text-align: center;
+}
+.main-cont{
+	height: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: #fff;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	padding: 15px;
 }
