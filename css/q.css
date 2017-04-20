@@ -407,12 +407,13 @@ footer{
 
 
 
-.bann-wrap{
+#bann-wrap{
 	background-image: url(../images/cost.jpg);
-	background-repeat: no-repeat;
+	background-repeat:no-repeat;
 	background-size:100% auto;
 	background-size: cover;
 	height: 500px;
+	width: 100%;
 	// -webkit-filter: brightness(3);
  //  filter: brightness(3);
 }
@@ -441,16 +442,44 @@ footer{
 	font-family: Museo;
 	font-size: 20px;
 }
-th{
+section{
 	text-align: center;
-}
-.main-cont{
-	height: auto;
-	margin-left: 100px;
-	margin-right: 100px;
 	background: #fff;
+	margin-right: 50px;
+	margin-left: 50px;
 	-moz-box-shadow: 0 0 5px #888;
 	-webkit-box-shadow: 0 0 5px#888;
 	box-shadow: 0 0 5px #888;
-	padding: 15px;
+}
+.face{
+	width: 70px;
+    height: 70px;
+    padding-top: 9px;
+    border-radius: 8px;
+    color: #fff;
+    background: blue;
+}
+.twit{
+	width: 70px;
+    height: 70px;
+    padding-top: 9px;
+    border-radius: 8px;
+    color: #fff;
+    background: #63cdf1;
+}
+.insta{
+	width: 70px;
+    height: 70px;
+    padding-top: 9px;
+    border-radius: 8px;
+    color: #fff;
+    background:#EA5745;
+}
+.din{
+	width: 70px;
+    height: 70px;
+    padding-top: 9px;
+    border-radius: 8px;
+    color: #fff;
+    background:#0073B1;
 }
