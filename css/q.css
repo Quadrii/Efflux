@@ -80,7 +80,7 @@ td{
 	cursor: pointer;
 }
 .item--1{
-	background-image: url(../images/space.jpg);
+	background-image: url(../images/6.jpg);
 	background-repeat: repeat;
 	background-size: 100% auto;
 	background-size: cover;
@@ -408,7 +408,7 @@ footer{
 
 
 #bann-wrap{
-	background-image: url(../images/cost.jpg);
+	background-image: url(../images/rel.jpg);
 	background-repeat:no-repeat;
 	background-size:100% auto;
 	background-size: cover;
@@ -487,7 +487,7 @@ img{
 .content{
 	color: #000;
 	font-family: Museo;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: justify;
 	background: #fff;
 	padding: 30px;
@@ -497,6 +497,8 @@ img{
 	text-transform: uppercase;
 	font-size: 20px;
 	color: #000 !important;
+	font-weight: bold;
+	letter-spacing: 5px;
 }
 .our_logo{
 	background-image: url(../images/efflux.jpg);
@@ -507,4 +509,12 @@ img{
 .big{
 	font-size: 15px;
 	line-height: 20px;
+.pass:hover{
+	text-decoration: none !important;
+}
+ .pass::selection{
+ 	text-decoration: none;
+ }
+a:hover{
+	text-decoration: none !important;
 }
