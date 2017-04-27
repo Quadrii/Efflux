@@ -401,8 +401,6 @@ footer{
 	bottom: 20px;
 	right: 20px;
 }
-
-
 .sou{
 	background-image: url(../images/outsourceit.png);
 	background-repeat:no-repeat;
@@ -424,7 +422,10 @@ footer{
 	// -webkit-filter: brightness(3);
  //  filter: brightness(3);
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 .cont-div{
 	background: #fff;
 	margin-left: 150px !important;
