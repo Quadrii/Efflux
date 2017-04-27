@@ -403,7 +403,14 @@ footer{
 }
 
 
-
+.sou{
+	background-image: url(../images/outsourceit.png);
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-size: cover;
+	height: 313px;
+	width: 100%;
+}
 
 
 
@@ -516,8 +523,18 @@ img{
 	background-repeat: no-repeat;
 	height: 600px;
 }
-.div{
+.divv{
 	background:black;
 	opacity: 0.6;
 	height: 600px;
+}
+.our_logo:hover{
+-webkit-transform:scale(1);
+transform:scale(1);
+}
+.our_logo {
+-webkit-transform:scale(1.3);
+transform:scale(1.3);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
 }
