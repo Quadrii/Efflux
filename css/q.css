@@ -412,16 +412,7 @@ footer{
 
 
 
-#bann-wrap{
-	background-image: url(../images/rel.jpg);
-	background-repeat:no-repeat;
-	background-size:100% auto;
-	background-size: cover;
-	height: 500px;
-	width: 100%;
-	// -webkit-filter: brightness(3);
- //  filter: brightness(3);
-}
+
 img {
     max-width: 100%;
     height: auto;
@@ -503,10 +494,11 @@ img{
 }
 .ours{
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 40px;
 	color: #000 !important;
 	font-weight: bold;
 	letter-spacing: 5px;
+	font-family: Museo;
 }
 .our_logo{
 	background-image: url(../images/efflux.jpg);
