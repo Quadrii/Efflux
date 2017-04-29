@@ -80,7 +80,7 @@ td{
 	cursor: pointer;
 }
 .item--1{
-	background-image: url(../images/6.jpg);
+	background-image: url(../images/e3.jpg);
 	background-repeat: repeat;
 	background-size: 100% auto;
 	background-size: cover;
@@ -101,7 +101,7 @@ td{
 	height: 500px;
 }
 .item--4{
-	background-image: url(../images/e3.jpg);
+	background-image: url(../images/6.jpg);
 	background-repeat: repeat;
 	background-size: 100% auto;
 	background-size: cover;
@@ -157,64 +157,57 @@ td{
 .fa-user-o:hover{
 	color: blue !important;
 	background: white;
-	animation-duration: 50s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	animation-name: anim-1;
+	-webkit-transform:scale(1);
+	transform:scale(1);
 }
 
-
-
-@keyframes anim-1 {
-	0%, 8.3% { zoomInDown: -100%; opacity: 0; }
-  8.3%,25% { zoomInDown: 25%; opacity: 1; }
-  33.33%, 100% { zoomInDown: 110%; opacity: 0; }
+.fa-user-o{
+	-webkit-transform:scale(1.3);
+	transform:scale(1.3);
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
 }
 
-
+.fa-envelope-open{
+	-webkit-transform:scale(1.3);
+	transform:scale(1.3);
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
 
 .fa-envelope-open:hover{
 	color: blue !important;
 	background: white;
-	animation-duration: 50s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	animation-name: anim-1;
+	-webkit-transform:scale(1);
+	transform:scale(1);
 
+}
+.fa-check{
+	-webkit-transform:scale(1.3);
+	transform:scale(1.3);
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
 }
 .fa-check:hover{
 	color: blue !important;
 	background: white;
-	animation-duration: 50s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	animation-name: anim-1;
+	-webkit-transform:scale(1);
+	transform:scale(1);
 }
 .first{
-	background-image: url(../images/first1.jpg);
-	background-size:100% auto;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 313px;
-}
-.first:hover{
-	background-image: url(../images/efflux.jpg);
-	background-size:100% auto;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.6;
-	height: 313px;
-	animation-duration: 20s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	animation-fill-mode:backwards;
-	animation-name: anim-1;
+  margin:0 auto;
+  height:313px;
+  transition: background-image 0.7s ease-in-out;
+  background-image:url(../images/first1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
-@keyframes anim-1 {
-	0%, 8.3% { bounceInRight: -100%; opacity: 0; }
-  8.3%,25% { bounceInRight: 25%; opacity: 1; }
-  33.33%, 100% { bounceInRight: 110%; opacity: 0; }
+.first:hover {
+  background-image:url(../images/efflux.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 313px;
 }
 .h4{
 	position: absolute;
@@ -413,9 +406,19 @@ footer{
 
 
 
+
+
+
+.bar{
+	background-image: url(../images/9.jpg);
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-size: cover;
+	height: 313px;
+}
 img {
     max-width: 100%;
-    height: auto;
+    height: 500px;
 }
 .cont-div{
 	background: #fff;
@@ -505,16 +508,12 @@ img{
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	height: 300px;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
 }
 .big{
 	font-size: 15px;
 	line-height: 20px;
-}
-.banner-rap{
-	background-image: url(../images/pf.jpg);
-	background-size:100% auto;
-	background-repeat: no-repeat;
-	height: 600px;
 }
 .divv{
 	background:black;
@@ -522,12 +521,25 @@ img{
 	height: 600px;
 }
 .our_logo:hover{
--webkit-transform:scale(1);
-transform:scale(1);
-}
-.our_logo {
 -webkit-transform:scale(1.3);
 transform:scale(1.3);
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
 }
+#cf {
+  position:relative;
+  // height:281px;
+  // width:450px;
+  margin:0 auto;
+}
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
