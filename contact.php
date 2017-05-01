@@ -143,7 +143,7 @@
                         </a>
                     </li>
                      <li class="class" >
-                        <a href="quote.html" class="link" style="font-family: Museo;">
+                        <a href="quote.php" class="link" style="font-family: Museo;">
                             <table>
                                 <tbody>
                                     <tr>
@@ -175,7 +175,7 @@
                         </a>
                     </li>
                     <li class="class">
-                        <a href="contact.html" class="link" style="font-family: Museo;">
+                        <a href="contact.php" class="link" style="font-family: Museo;">
                             <table>
                                 <tbody>
                                     <tr>
@@ -226,7 +226,7 @@
                                 </a>
                             </li>
                             <li class="class" >
-                                <a href="#" class="link" style="font-family: Museo;color: white;">
+                                <a href="https://www.instagram.com/efflux_efflux/" class="link" style="font-family: Museo;color: white;">
                                     <table>
                                         <tbody>
                                             <tr>
@@ -367,7 +367,6 @@
                     <li class="soci"><a href="https://web.facebook.com/Effluxcompany/" class="socia" title="facebook"><i class="fa fa-facebook face" aria-hidden="true"></i></a></li>
                     <li class="soci"><a href=" https://twitter.com/EffluxCompany" class="socia" title="twitter"><i class="fa fa-twitter twit" aria-hidden="true"></i></a></li>
                     <li class="soci"><a href="" class="socia" title="instagram"><i class="fa fa-instagram insta" aria-hidden="true"></i></a></li>
-                    <li class="soci"><a href="" class="socia" title="linkedin"><i class="fa fa-linkedin din" aria-hidden="true"></i></a></li>
                 </ul>
                 <p style="color:#fff;font-size: 15px;font-family: Museo;text-align: center;">copyright&copy; 2016 Effluxcompany</p>
             </div>

@@ -149,7 +149,7 @@
                         </a>
                     </li>
                      <li class="class" >
-                        <a href="quote.html" class="link" style="font-family: Museo;">
+                        <a href="quote.php" class="link" style="font-family: Museo;">
                             <table>
                                 <tbody>
                                     <tr>
@@ -181,7 +181,7 @@
                         </a>
                     </li>
                     <li class="class">
-                        <a href="contact.html" class="link" style="font-family: Museo;">
+                        <a href="contact.php" class="link" style="font-family: Museo;">
                             <table>
                                 <tbody>
                                     <tr>
@@ -232,7 +232,7 @@
                                 </a>
                             </li>
                             <li class="class" >
-                                <a href="#" class="link" style="font-family: Museo;color: white;">
+                                <a href="https://www.instagram.com/efflux_efflux/" class="link" style="font-family: Museo;color: white;">
                                     <table>
                                         <tbody>
                                             <tr>
@@ -311,72 +311,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="clearfix"></div>
-	<div class="container">
-		<div class="row">
-			<h3 class="your">POST YOUR JOB HERE</h3>
-            <div class="clearfix"></div>
-			<form action="php/processform.php" method="POST">
-				<div class="form_wrap">
-					<div class="col-md-12">
-						<label class="lab">What Are You Looking To Build ?</label><br>
-						<input type="radio" name="whatwearebuilding" value="website" style="margin-right: 5px;" required><span style="margin-right: 20px;font-size: 15px;font-family: Museo;">website</span>
-						<input type="radio" name="whatwearebuilding" value="web application" style="margin-right: 5px;" required><span style="margin-right: 20px;font-family: Museo;font-size: 15px;">web application</span> <br> <br>
-					</div>
-				</div>
-                <div class="clearfix"></div>
-		     	<div class="form_wrap">
-		           <div class="col-md-6">
-		             	<label class="lab" for="sur">Name:</label>
-				      	<input type="text" class="form-control" name="name" id="name" placeholder="Enter your full name" required>
-		           </div>       
-		           <div class="col-md-6">
-		             	<label class="lab" for="sur">Address:</label>
-				      	<input type="text" class="form-control" name="Address" id="Address" placeholder="Enter Address" required>
-		           </div>
-			    </div>
-			    <div class="form_wrap">
-		           <div class="col-md-6">
-		             	<label class="lab" for="sur">State:</label>
-				      	<input type="text" class="form-control" name="State" id="State" placeholder="Enter State" required>
-		           </div>       
-		           <div class="col-md-6">
-		             	<label class="lab" for="sur">Phone:</label>
-				      	<input type="number" class="form-control" name="Pnumber" id="Phone" placeholder="Enter Phone Number" required>
-		           </div>
-			    </div>
-			    <div class="form_wrap">
-		           <div class="col-md-6">
-		             	<label class="lab" for="email">Email:</label>
-				      	<input type="email" class="form-control" name="email" id="email" placeholder="Enter email" required>
-		           </div>
-		            <div class="col-md-6">
-					    <label for="Timeline" class="lab">Timeline:</label>
-					    <select class="form-control" name="timeline" id="timeline" required>
-    					    <option value="" selected="selected"> - - -please select</option>
-    					    <option value="4 Days">4 Days</option>
-    					    <option value="1 Week">1 Week</option>
-    					    <option value="2 Weeks">2 Weeks</option>
-					    </select>
-				    </div>
-				</div> 			     	
-				<div class="form_wrap">
-		           <div class="col-md-6">
-					      <label class="lab" for="budget">What's your Budget:</label>
-					      <input type="text" class="form-control" name="amount" id="amount" placeholder="Enter Your Budget e.g 30,000" required>
-					</div>
-	            </div>
-	            <div class="form_wrap">
-		           <div class="col-md-12">
-		             	<label class="lab" for="sur">Description:</label>
-				      	<textarea class="form-control" rows="7" id="comment" name="Description" required></textarea>
-		           </div>
-			    </div>
-                <input type="submit" value="Send" name="send" class="button lab">
-			</form>
-        </div>
-	</div>	 -->
-
 	<footer>
         <div class="container">
             <div class="row">
@@ -385,7 +319,6 @@
                     <li class="soci"><a href="https://web.facebook.com/Effluxcompany/" class="socia" title="facebook"><i class="fa fa-facebook face" aria-hidden="true"></i></a></li>
                     <li class="soci"><a href=" https://twitter.com/EffluxCompany" class="socia" title="twitter"><i class="fa fa-twitter twit" aria-hidden="true"></i></a></li>
                     <li class="soci"><a href="" class="socia" title="instagram"><i class="fa fa-instagram insta" aria-hidden="true"></i></a></li>
-                    <li class="soci"><a href="" class="socia" title="linkedin"><i class="fa fa-linkedin din" aria-hidden="true"></i></a></li>
                 </ul>
                 <p style="color:#fff;font-size: 15px;font-family: Museo;text-align: center;">copyright&copy; 2016 Effluxcompany</p>
             </div>
