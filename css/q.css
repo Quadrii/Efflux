@@ -411,7 +411,7 @@ footer{
 
 
 .bar{
-	background-image: url(../images/9.jpg);
+	background-image: url(../images/11.jpg);
 	background-repeat:no-repeat;
 	background-size:100% auto;
 	background-size: cover;
@@ -643,4 +643,9 @@ transform:scale(1.3);
 .lab{
 	font-size: 15px;
 	font-family: Museo;
+}
+.tim{
+	font-size: 15px;
+	font-family: Museo;
+	margin-top: 20px;
 }
