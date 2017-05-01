@@ -271,7 +271,7 @@
         <div class="container" style="margin-bottom: 30px;">
             <div class="row">
                 <div class="col-md-8">
-                    <form name="registration_form" id="registration_form" class="form-horizontal"  enctype="multipart/form-data" action="process-job-form.php" method="post">
+                    <form name="registration_form" id="registration_form" class="form-horizontal"  enctype="multipart/form-data" action="process-contact-form.php" method="post">
                         <div class="form-group form_wrap">      
                            <div class="col-sm-12">
                                 <label for="sur">Full Name:</label>
