@@ -241,22 +241,6 @@
                                     </table>
                                 </a>
                             </li>
-                            <li class="class" >
-                                <a href="#" class="link" style="font-family: Museo;color: white;">
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td style="text-align: left;">
-                                                    linkedin
-                                                </td>
-                                                <td style="text-align: right;">
-                                                    <i class="fa fa-linkedin link" aria-hidden="true" style="font-size: 20px;"></i>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </a>
-                            </li>
                         </ul>
                     </li>
                 </ul>
