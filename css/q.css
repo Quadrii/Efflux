@@ -118,6 +118,7 @@ td{
 	height: 400px;
 	background-size: cover;
 	padding: 30px;
+	position: relative;
 }
 
 .h1{
