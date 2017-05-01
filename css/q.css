@@ -418,7 +418,7 @@ footer{
 }
 img {
     max-width: 100%;
-    height: 500px;
+    height: auto;
 }
 .cont-div{
 	background: #fff;
@@ -541,4 +541,67 @@ transform:scale(1.3);
 
 #cf img.top:hover {
   opacity:0;
+<<<<<<< HEAD
+}
+.folio{
+	font-size: 30px;
+	font-family: Museo;
+	color: #000 !important;
+	text-transform: uppercase;
+}
+.cs-style-3 figure {
+	overflow: hidden;
+}
+.cs-style-3 figure img {
+	transition: transform 0.4s;
+}
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+	transform: translateY(-50px);
+}
+.cs-style-3 figcaption {
+	height: 100px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	transform: translateY(100%);
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+	opacity: 1;
+	transform: translateY(0px);
+	transition: transform 0.4s, opacity 0.1s;
+}
+.cs-style-3 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.cs-style-5 figure img {
+	z-index: 10;
+	transition: transform 0.4s;
+}
+.no-touch .cs-style-5 figure:hover img,
+.cs-style-5 figure.cs-hover img {
+	transform: scale(0.4);
+}
+.cs-style-5 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transform: scale(0.7);
+	backface-visibility: hidden;
+	transition: transform 0.4s, opacity 0.4s;
+}
+.no-touch .cs-style-5 figure:hover figcaption,
+.cs-style-5 figure.cs-hover figcaption {
+	transform: scale(1);
+	opacity: 1;
+}
+.cs-style-5 figure a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
 }
