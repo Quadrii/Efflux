@@ -291,14 +291,14 @@
                         <div class="form-group form_wrap">      
                            <div class="col-sm-12">
                                 <label for="sur">Full Name:</label>
-                                <input type="text" class="form-control input" name="lastname" id="fullname" placeholder="Full Name" required>
+                                <input type="text" class="form-control input" name="fullname" id="fullname" placeholder="Full Name" required>
                            </div>
                         </div><!--/form-group-->
 
                         <div class="form-group form_wrap">      
                            <div class="col-sm-12">
                                 <label for="sur">Email Address:</label>
-                                <input type="email" class="form-control input" name="firstname" id="emailaddress" placeholder="Enter Email Address" required>
+                                <input type="email" class="form-control input" name="emailaddress" id="emailaddress" placeholder="Enter Email Address" required>
                            </div>
                         </div><!--/form-group-->
 
@@ -311,15 +311,8 @@
 
                         <div class="form-group form_wrap">      
                            <div class="col-sm-12">
-                                <label for="sur">Subject:</label>
-                                <input type="text" class="form-control input" name="subject" id="subject" placeholder="Enter Subject" required>
-                           </div>
-                        </div><!--/form-group-->
-
-                        <div class="form-group form_wrap">      
-                           <div class="col-sm-12">
                                 <label for="sur">Message:</label> <br>
-                                <textarea class="textarea"></textarea>
+                                <textarea class="textarea" name="message"></textarea>
                            </div>
                         </div><!--/form-group-->
                         <input type="submit" value="Send Message" class="button">
@@ -341,7 +334,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        info@marikschmidt.com
+                                        info@effluxcompany.com
                                     </td>
                                 </tr>
                             </table>
@@ -355,17 +348,17 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        Plot 111 & 112,
+                                        951B, Admiral Oduwaye Street,
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        Sector Center A,
+                                        Omole Phase 2,
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        F.C.T Abuja, Nigeria.
+                                        Ojodu Berger, Lagos Nigeria.
                                     </td>
                                 </tr>
                             </table>
