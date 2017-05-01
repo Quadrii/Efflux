@@ -154,7 +154,7 @@
                                 <tbody>
                                     <tr>
                                         <td style="text-align: left;">
-                                            Quote
+                                           Get A Quote
                                         </td>
                                         <td style="text-align: right;">
                                             <i class="fa fa-quote-right link" aria-hidden="true" style="font-size: 20px;"></i>
@@ -276,59 +276,52 @@
             </div>
     </div>
 	<div class="">
-		<img src="images/quo.jpg" alt="" width="100%" style="height: 400px;">
+		<img src="images/quo.jpg" alt="" width="100%" height="400px">
 	</div>
-
-    <table style="width: 100%;">
-        <tr>
-            <th style="text-align: center; padding: 10px 0px; font-size: 40px; font-family: Museo;">How can we help you?</th>
-        </tr>
-        <tr>
-            <td style="text-align: center; padding: 10px 0px; font-size: 20px; font-family: Museo;">
-                Drop us a line...We're glad to be of service.
-            </td>
-        </tr>
-    </table>
-
     <div class="container" style="margin-bottom: 30px;">
         <div class="row">
+            <h3 class="your">POST YOUR JOB HERE</h3>
             <div class="col-md-12">
                 <form name="registration_form" id="registration_form" class="form-horizontal"  enctype="multipart/form-data" action="process-job-form.php" method="post">
                     <div class="form-group form_wrap">      
                         <div class="col-sm-6">
-                            <label for="sur">Full Name:</label>
+                            <label for="sur" class="tim">Full Name:</label>
                             <input type="text" class="form-control input" name="lastname" id="fullname" placeholder="Full Name" required>
                         </div>
                         <div class="col-sm-6">
-                            <label for="sur">Email Address:</label>
+                            <label for="sur" class="tim">Email Address:</label>
                             <input type="email" class="form-control input" name="firstname" id="emailaddress" placeholder="Enter Email Address" required>
                         </div>
-                    </div><!--/form-group-->
-
-                    <div class="form-group form_wrap">      
-                        
-                    </div><!--/form-group-->
-
-                    <div class="form-group form_wrap">      
-                       <div class="col-sm-12">
-                            <label for="sur">Phone Number:</label>
-                            <input type="text" class="form-control input" name="number" id="number" placeholder="Enter Phone Number" required>
-                       </div>
-                    </div><!--/form-group-->
-
-                    <div class="form-group form_wrap">      
-                       <div class="col-sm-12">
-                            <label for="sur">Subject:</label>
-                            <input type="text" class="form-control input" name="subject" id="subject" placeholder="Enter Subject" required>
-                       </div>
-                    </div><!--/form-group-->
-
-                    <div class="form-group form_wrap">      
-                       <div class="col-sm-12">
-                            <label for="sur">Message:</label> <br>
-                            <textarea class="textarea"></textarea>
-                       </div>
-                    </div><!--/form-group-->
+                    </div>
+                     <div class="form-group form_wrap">      
+                        <div class="col-sm-6">
+                            <label for="sur" class="tim">State:</label>
+                            <input type="text" class="form-control input" name="state" id="state" placeholder="Enter your Stae" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="sur" class="tim">Phone Number:</label>
+                            <input type="number" class="form-control input" name="number" id="number" placeholder="Enter Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="form-group form_wrap">
+                        <div class="col-sm-6">
+                            <label for="sur" class="tim">Timeline</label>
+                            <select class="form-control" name="timeline" id="timeline" required>
+                                <option value="" selected="selected"> - - -please select</option>
+                                <option value="4 Days">4 Days</option>
+                                <option value="1 Week">1 Week</option>
+                                <option value="2 Weeks">2 Weeks</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                             <label class="sur tim" for="budget">What's your Budget:</label>
+                            <input type="text" class="form-control" name="amount" id="amount" placeholder="Enter Your Budget e.g 30,000" required>
+                        </div>
+                        <div class="col-sm-12">
+                            <label class="lab tim" for="sur">Description:</label>
+                            <textarea class="form-control" rows="7" id="comment" name="Description" required></textarea>
+                        </div>
+                    </div>
                     <input type="submit" value="Send Message" class="button">
                 </form>
             </div>
