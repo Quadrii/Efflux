@@ -111,7 +111,7 @@
                         </a>
                     </li>
                     <li class="class" >
-                        <a href="#" class="link" style="font-family: Museo;">
+                        <a href="services.html" class="link" style="font-family: Museo;">
                             <table>
                                 <tbody>
                                     <tr>
@@ -148,7 +148,7 @@
                                 <tbody>
                                     <tr>
                                         <td style="text-align: left;">
-                                            Quote
+                                            Get A Quote
                                         </td>
                                         <td style="text-align: right;">
                                             <i class="fa fa-quote-right link" aria-hidden="true" style="font-size: 20px;"></i>
@@ -359,7 +359,7 @@
                 <ul style="text-align: center;">
                     <li class="soci"><a href="https://web.facebook.com/Effluxcompany/" class="socia" title="facebook"><i class="fa fa-facebook face" aria-hidden="true"></i></a></li>
                     <li class="soci"><a href=" https://twitter.com/EffluxCompany" class="socia" title="twitter"><i class="fa fa-twitter twit" aria-hidden="true"></i></a></li>
-                    <li class="soci"><a href="" class="socia" title="instagram"><i class="fa fa-instagram insta" aria-hidden="true"></i></a></li>
+                    <li class="soci"><a href="https://www.instagram.com/efflux_efflux/" class="socia" title="instagram"><i class="fa fa-instagram insta" aria-hidden="true"></i></a></li>
                 </ul>
                 <p style="color:#fff;font-size: 15px;font-family: Museo;text-align: center;">copyright&copy; 2016 Effluxcompany</p>
             </div>
