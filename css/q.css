@@ -140,6 +140,12 @@ td{
 	text-align: center !important;
 	padding: 40px;
 }
+@media(max-width:991px){
+.h21 {
+    font-size: 15px;
+    font-family: Museo;
+}
+}
 .p1{
 	color: #fff;
 	font-size: 15px;
@@ -403,15 +409,54 @@ footer{
 	height: 313px;
 	width: 100%;
 }
+.bt{
+	background: green;
+	border-radius: 5px;
+	color: #fff;
+	height: 50px;
+	width: 180px;
+	font-size: 15px;
+	font-family: Museo;
+	border: none;
+	position: absolute;
+	top: 200px;
+	right: 500px;
 
+}
+.at{
+	text-decoration: none;
+	color: #fff;
+}
+.at:hover{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
 
-
-
-
-
+.btn{
+	background: #08d6e6;
+    text-align: center;
+    border-radius: 22px;
+    color: #fff;
+    display: block;
+    font-family: "bree_serifregular";
+    font-size: 17px;
+    line-height: 20px;
+    margin: 30px auto 30px auto;
+    padding: 10px 30px 15px 30px;
+    width: 31%;
+    text-decoration: none;
+}
+@media(max-width:991px){
+.btn {
+    font-size: 15px;
+    height: auto;
+    min-width: 50%;
+}
+}
 
 .bar{
-	background-image: url(../images/11.jpg);
+	background-image: url(../images/3.jpg);
 	background-repeat:no-repeat;
 	background-size:100% auto;
 	background-size: cover;
@@ -549,7 +594,6 @@ transform:scale(1.3);
 
 #cf img.top:hover {
   opacity:0;
-<<<<<<< HEAD
 }
 .folio{
 	font-size: 30px;
@@ -655,4 +699,36 @@ transform:scale(1.3);
 	font-size: 15px;
 	font-family: Museo;
 	margin-top: 20px;
+}
+.dig{
+	color: #000 !important;
+	text-transform: capitalize;
+}
+@media(max-width:991px){
+.dig {
+    font-size: 15px;
+    font-family: Museo;
+}
+}
+.lnk{
+	font-size: 15px;
+	color: #000;
+	font-family: Museo;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.seach{
+	font-size: 40px;
+	color: blue;
+}
+.ico{
+	float: left;
+	color: blue;
+	font-size: 50px;
+	margin-top: 10px;
+	width: 14%;
+}
+.conte{
+	float: right;
+	width: 81%;
 }
