@@ -74,194 +74,15 @@
           }
         </style>
     </head>
-<body style="background:#fff !important;">
-	<div id="wrapper">
-        <div class="overlay"></div>
-            <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-                <ul class="nav sidebar-nav">
-                    <li class="sidebar-brand">
-                        <div class="logo_logo">
-                       
-                        </div>
-                    </li>
-                    <li class="home class">
-                        <a href="index.html" class="link" style="font-family: Museo;">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: left;">
-                                            Home
-                                        </td>
-                                        <td style="text-align: right;">
-                                            <i class="fa fa-home socia link" aria-hidden="true" style="font-size: 20px;"></i>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </a>
-                    </li>
-                    <li class="class" >
-                        <a href="about.html" class="link" style="font-family: Museo;">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: left;">
-                                            About
-                                        </td>
-                                        <td style="text-align: right;">
-                                            <i class="fa fa-cloud-download link" aria-hidden="true" style="font-size: 20px;"></i>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </a>
-                    </li>
-                    <li class="class" >
-                        <a href="services.html" class="link" style="font-family: Museo;">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: left;">
-                                            Services
-                                        </td>
-                                        <td style="text-align: right;">
-                                            <i class="fa fa-briefcase link" aria-hidden="true" style="font-size: 20px;"></i>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </a>
-                    </li>
-                    <li class="class" >
-                        <a href="portfolio.html" class="link" style="font-family: Museo;">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: left;">
-                                            Portfolio
-                                        </td>
-                                        <td style="text-align: right;">
-                                            <i class="fa fa-folder-open link" aria-hidden="true" style="font-size: 20px;"></i>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </a>
-                    </li>
-                     <li class="class" >
-                        <a href="quote.php" class="link" style="font-family: Museo;">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: left;">
-                                           Get A Quote
-                                        </td>
-                                        <td style="text-align: right;">
-                                            <i class="fa fa-quote-right link" aria-hidden="true" style="font-size: 20px;"></i>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </a>
-                    </li>
-                    <li class="class" >
-                        <a href="http://effluxcompany.com/blog/" class="link" style="font-family: Museo;">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: left;">
-                                            Blog
-                                        </td>
-                                        <td style="text-align: right;">
-                                            <i class="fa fa-rss link" aria-hidden="true" style="font-size: 20px;"></i>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </a>
-                    </li>
-                    <li class="class">
-                        <a href="contact.php" class="link" style="font-family: Museo;">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: left;">
-                                            Contact
-                                        </td>
-                                        <td style="text-align: right;">
-                                            <i class="fa fa-phone link" aria-hidden="true" style="font-size: 20px;"></i>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </a>
-                    </li>
-                    <li class="dropdown class">
-                        <a href="#" class="dropdown-toggle link" data-toggle="dropdown" style="font-family: Museo;">Follow us<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li class="class" >
-                                <a href="https://web.facebook.com/Effluxcompany/" class="link" style="font-family: Museo;">
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td style="text-align: left;">
-                                                    facebook
-                                                </td>
-                                                <td style="text-align: right;">
-                                                    <i class="fa fa-facebook link" aria-hidden="true" style="font-size: 20px;"></i>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </a>
-                            </li>
-                            <li class="class" >
-                                <a href=" https://twitter.com/EffluxCompany" class="link" style="font-family: Museo; color: white;">
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td style="text-align: left;">
-                                                    twitter
-                                                </td>
-                                                <td style="text-align: right;">
-                                                    <i class="fa fa-twitter link" aria-hidden="true" style="font-size: 20px;"></i>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    </a>
-                                </li>
-                                <li class="class" >
-                                    <a href="https://www.instagram.com/efflux_efflux/" class="link" style="font-family: Museo;color: white;">
-                                        <table>
-                                            <tbody>
-                                                <tr>
-                                                    <td style="text-align: left;">
-                                                        Instagram
-                                                    </td>
-                                                    <td style="text-align: right;">
-                                                        <i class="fa fa-instagram link" aria-hidden="true" style="font-size: 20px;"></i>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-                <div id="page-content-wrapper">
-                    <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                        <span class="hamb-top"></span>
-                        <span class="hamb-middle"></span>
-                        <span class="hamb-bottom"></span>
-                    </button>
-                </div>
-        </div>
+    <body style="background:#fff !important;">
+    	<?php
+            include ("header.php");
+        ?>
+
     	<div class="">
     		<img src="images/quo.jpg" alt="" width="100%" height="400px">
     	</div>
+
         <div class="container" style="margin-bottom: 30px;">
             <div class="row">
                 <h3 class="your">POST YOUR JOB HERE</h3>
@@ -311,18 +132,10 @@
                 </div>
             </div>
         </div>
-    </div>
-	<footer>
-        <div class="container">
-            <div class="row">
-                <h1 class="give">give us a call (+234) 8140396480</h1>
-                <ul style="text-align: center;">
-                    <li class="soci"><a href="https://web.facebook.com/Effluxcompany/" class="socia" title="facebook"><i class="fa fa-facebook face" aria-hidden="true"></i></a></li>
-                    <li class="soci"><a href=" https://twitter.com/EffluxCompany" class="socia" title="twitter"><i class="fa fa-twitter twit" aria-hidden="true"></i></a></li>
-                    <li class="soci"><a href="https://www.instagram.com/efflux_efflux/" class="socia" title="instagram"><i class="fa fa-instagram insta" aria-hidden="true"></i></a></li>
-                </ul>
-                <p style="color:#fff;font-size: 15px;font-family: Museo;text-align: center;">copyright&copy; 2016 Effluxcompany</p>
-        </footer>
+
+    	<?php
+            include ("footer.php");
+        ?>
 
 
     	<script>

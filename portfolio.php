@@ -85,9 +85,9 @@
     				<ul class="grid cs-style-3">
     					<li>
     						<figure>
-    							<img src="images/outsourceit.png" alt="img01"  width="100%"  style="height: 300px;" >
+    							<img src="images/proqure.png" alt="img01"  width="100%"  style="height: 300px;" >
     							<figcaption style="background:blue;opacity: 0.6;">
-    								<h3 style="font-size: 30px !important;text-align: center;">OUTSOURCEIT</h3>
+    								<h3 style="font-size: 30px !important;text-align: center;">WEPROQURE</h3>
     							</figcaption>
     						</figure>
     					</li>
@@ -174,9 +174,9 @@
     				<ul class="grid cs-style-3">
     					<li>
     						<figure>
-    							<img src="images/proqure.png" alt="img01"  width="100%"  style="height: 300px;" >
+    							<img src="images/outsourceit.png" alt="img01"  width="100%"  style="height: 300px;" >
     							<figcaption style="background:blue;opacity: 0.8;">
-    								<h3 style="font-size: 30px !important;text-align: center;">WEPROQURE</h3>
+    								<h3 style="font-size: 30px !important;text-align: center;">OUTSOURCEIT</h3>
     							</figcaption>
     						</figure>
     					</li>
