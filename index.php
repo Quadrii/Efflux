@@ -167,7 +167,9 @@
             <div class="bann">
                 <div class="container">
                     <h2 class="h21">WE DON’T JUST DO, WE OFFER WHAT IS BEST FOR YOU</h2>
-                    <button class="get">GET A QUOTE</button>
+                    <p class="text-primary text-center">
+                        <a href="quote.php" class="btn">Click Here To Post A Job</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -188,7 +190,7 @@
                                     <figcaption>
                                         <h3>Check Out</h3>
                                         <div class="span" style="text-align: center !important;">Some Of Our Works</div>
-                                        <a href="portfolio.html" style="text-decoration: none;">HERE</a>
+                                        <a href="portfolio.php" style="text-decoration: none;">HERE</a>
                                     </figcaption>
                                 </figure>
                             </li>

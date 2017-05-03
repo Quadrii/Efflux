@@ -119,9 +119,9 @@
     				<ul class="grid cs-style-3">
     					<li>
     						<figure>
-    							<img src="images/proqure.png" alt="img01"  width="100%"  style="height: 300px;" >
+    							<img src="images/nkn.png" alt="img01"  width="100%"  style="height: 300px;" >
     							<figcaption style="background:blue;opacity: 0.6;">
-    								<h3 style="font-size: 30px !important;text-align: center;">WEPROQURE</h3>
+    								<h3 style="font-size: 30px !important;text-align: center;">NK&N SURVEILLANCE</h3>
     							</figcaption>
     						</figure>
     					</li>
@@ -140,9 +140,9 @@
     				<ul class="grid cs-style-3">
     					<li>
     						<figure>
-    							<img src="images/qed.png" alt="img01"  width="100%"  style="height: 300px;" >
+    							<img src="images/daytin.png" alt="img01"  width="100%"  style="height: 300px;" >
     							<figcaption style="background:blue;opacity: 0.6;">
-    								<h3 style="font-size: 30px !important;text-align: center;">QEDISTRIBUTIONS</h3>
+    								<h3 style="font-size: 30px !important;text-align: center;">DAYTIN TRAVELS</h3>
     							</figcaption>
     						</figure>
     					</li>
@@ -174,9 +174,9 @@
     				<ul class="grid cs-style-3">
     					<li>
     						<figure>
-    							<img src="images/daytin.png" alt="img01"  width="100%"  style="height: 300px;" >
+    							<img src="images/proqure.png" alt="img01"  width="100%"  style="height: 300px;" >
     							<figcaption style="background:blue;opacity: 0.8;">
-    								<h3 style="font-size: 30px !important;text-align: center;">DAYTIN TRAVELS</h3>
+    								<h3 style="font-size: 30px !important;text-align: center;">WEPROQURE</h3>
     							</figcaption>
     						</figure>
     					</li>
@@ -212,9 +212,9 @@
     				<ul class="grid cs-style-3">
     					<li>
     						<figure>
-    							<img src="images/.png" alt="img01"  width="100%"  style="height: 300px;" >
+    							<img src="images/qed.png" alt="img01"  width="100%"  style="height: 300px;" >
     							<figcaption style="background:blue;opacity: 0.6;">
-    								<h3 style="font-size: 30px !important;text-align: center;">NKSURVEILLANCE</h3>
+    								<h3 style="font-size: 30px !important;text-align: center;">QEDISTRIBUTIONS</h3>
     							</figcaption>
     						</figure>
     					</li>

@@ -94,28 +94,28 @@
                     <form name="registration_form" id="registration_form" class="form-horizontal"  enctype="multipart/form-data" action="process-contact-form.php" method="post">
                         <div class="form-group form_wrap">      
                            <div class="col-sm-12">
-                                <label for="sur">Full Name:</label>
+                                <label for="sur" class="lab">Full Name:</label>
                                 <input type="text" class="form-control input" name="fullname" id="fullname" placeholder="Full Name" required>
                            </div>
                         </div><!--/form-group-->
 
                         <div class="form-group form_wrap">      
                            <div class="col-sm-12">
-                                <label for="sur">Email Address:</label>
+                                <label for="sur" class="lab">Email Address:</label>
                                 <input type="email" class="form-control input" name="emailaddress" id="emailaddress" placeholder="Enter Email Address" required>
                            </div>
                         </div><!--/form-group-->
 
                         <div class="form-group form_wrap">      
                            <div class="col-sm-12">
-                                <label for="sur">Phone Number:</label>
+                                <label for="sur" class="lab">Phone Number:</label>
                                 <input type="text" class="form-control input" name="number" id="number" placeholder="Enter Phone Number" required>
                            </div>
                         </div><!--/form-group-->
 
                         <div class="form-group form_wrap">      
                            <div class="col-sm-12">
-                                <label for="sur">Message:</label> <br>
+                                <label for="sur" class="lab">Message:</label> <br>
                                 <textarea class="textarea" name="message"></textarea>
                            </div>
                         </div><!--/form-group-->

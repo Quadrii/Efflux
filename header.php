@@ -8,7 +8,7 @@
                 </div>
             </li>
             <li class="home class">
-                <a href="index.html" class="link" style="font-family: Museo;">
+                <a href="index.php" class="link" style="font-family: Museo;">
                     <table>
                         <tbody>
                             <tr>
@@ -24,7 +24,7 @@
                 </a>
             </li>
             <li class="class" >
-                <a href="about.html" class="link" style="font-family: Museo;">
+                <a href="about.php" class="link" style="font-family: Museo;">
                     <table>
                         <tbody>
                             <tr>
@@ -40,7 +40,7 @@
                 </a>
             </li>
             <li class="class" >
-                <a href="#" class="link" style="font-family: Museo;">
+                <a href="services.php" class="link" style="font-family: Museo;">
                     <table>
                         <tbody>
                             <tr>
@@ -56,7 +56,7 @@
                 </a>
             </li>
             <li class="class" >
-                <a href="portfolio.html" class="link" style="font-family: Museo;">
+                <a href="portfolio.php" class="link" style="font-family: Museo;">
                     <table>
                         <tbody>
                             <tr>
