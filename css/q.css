@@ -401,6 +401,20 @@ footer{
 	bottom: 20px;
 	right: 20px;
 }
+.cont {
+    display: inline;
+    animation: color-fade 10s forwards;
+}
+
+@keyframes background-fade {
+    99.9% {
+        color:#E1FEE0;
+    }
+    100% {
+        color:#000;
+    }
+}
+
 .sou{
 	background-image: url(../images/outsourceit.png);
 	background-repeat:no-repeat;
@@ -421,7 +435,6 @@ footer{
 	position: absolute;
 	top: 200px;
 	right: 500px;
-
 }
 .at{
 	text-decoration: none;
@@ -435,15 +448,15 @@ footer{
 
 .btn{
 	background: #08d6e6;
-    text-align: center;
-    border-radius: 22px;
+    text-align: center !important;
+    border-radius: 22px !important;
     color: #fff;
     display: block;
     font-family: "bree_serifregular";
-    font-size: 17px;
+    font-size: 17px !important;
     line-height: 20px;
     margin: 30px auto 30px auto;
-    padding: 10px 30px 15px 30px;
+    padding: 10px 30px 15px 30px !important;
     width: 31%;
     text-decoration: none;
 }
@@ -451,7 +464,7 @@ footer{
 .btn {
     font-size: 15px;
     height: auto;
-    min-width: 50%;
+    min-width: 70%;
 }
 }
 
