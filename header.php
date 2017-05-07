@@ -123,7 +123,7 @@
                 <a href="#" class="dropdown-toggle link" data-toggle="dropdown" style="font-family: Museo;">Follow us<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li class="class" >
-                        <a href="https://web.facebook.com/Effluxcompany/" class="link" style="font-family: Museo;">
+                        <a href="https://web.facebook.com/Effluxcompany/" class="link" style="font-family: Museo;" target="_blank">
                             <table>
                                 <tbody>
                                     <tr>
@@ -139,7 +139,7 @@
                         </a>
                     </li>
                     <li class="class" >
-                        <a href=" https://twitter.com/EffluxCompany" class="link" style="font-family: Museo; color: white;">
+                        <a href=" https://twitter.com/EffluxCompany" class="link" style="font-family: Museo; color: white;" target="_blank">
                         <table>
                             <tbody>
                                 <tr>
@@ -155,7 +155,7 @@
                         </a>
                     </li>
                     <li class="class" >
-                        <a href="https://www.instagram.com/efflux_efflux/" class="link" style="font-family: Museo;color: white;">
+                        <a href="https://www.instagram.com/efflux_efflux/" class="link" style="font-family: Museo;color: white;" target="_blank">
                             <table>
                                 <tbody>
                                     <tr>
