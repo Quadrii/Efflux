@@ -120,7 +120,7 @@
                                                 <h4 class="modal-title" style="font-family: Museo;">SEO(Search Engine Optimization)</h4>
                                         </div>
                                         <div class="modal-body">
-                                            <p style="color: #000;font-size: 15px;font-family: Museo;">At Efflux we offer more than just SEO consultancy. Our professional SEO managers start from the bottom up, working through your websites technical infrastructure, enhancing its content and applying SEO strategies to deliver your company the best results possible. <br> <br>We would welcome the opportunity to discuss your SEO requirements further with you so please don’t hesitate to call us on 08140396480</p>
+                                            <p style="color: #000;font-size: 15px;font-family: Museo;">At Efflux we offer more than just SEO consultancy. Our professional SEO managers start from the bottom up, working through your websites technical infrastructure, enhancing its content and applying SEO strategies to deliver your company the best results possible. <br> <br>We would welcome the opportunity to discuss your SEO requirements further with you so please don’t hesitate to call us on (+234) 8140396480</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
