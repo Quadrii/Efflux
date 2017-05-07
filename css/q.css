@@ -82,28 +82,28 @@ td{
 	cursor: pointer;
 }
 .item--1{
-	background-image: url(../images/e3.jpg);
+	background-image: url(../images/connected.png);
 	background-repeat: repeat;
 	background-size: 100% auto;
 	background-size: cover;
 	height: 500px;
 }
 .item--2{
-	background-image: url(../images/e4.jpg);
+	background-image: url(../images/code.png);
 	background-repeat: repeat;
 	background-size: 100% auto;
 	background-size: cover;
 	height: 500px;
 }
 .item--3{
-	background-image: url(../images/e5.jpg);
+	background-image: url(../images/e4.jpg);
 	background-repeat: repeat;
 	background-size: 100% auto;
 	background-size: cover;
 	height: 500px;
 }
 .item--4{
-	background-image: url(../images/6.jpg);
+	background-image: url(../images/e5.jpg);
 	background-repeat: repeat;
 	background-size: 100% auto;
 	background-size: cover;
