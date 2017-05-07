@@ -557,11 +557,11 @@ img{
 	line-height: 25px;
 }
 @media(max-width:991px){
-.content {
-    font-size: 15px;
-    height: auto;
-    min-width: 50%;
-}
+	.content {
+	    font-size: 5px;
+	    height: auto;
+	    min-width: 50%;
+	}
 }
 .ours{
 	text-transform: uppercase;
