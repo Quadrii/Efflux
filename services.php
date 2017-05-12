@@ -106,9 +106,9 @@
                     <div class="ico">
                        <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
-                   <div class="conten">
+                    <div class="conten">
                         <h3>SEO(Search Engine Optimization)</h3>
-                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">Our Search Engine Optimisation (SEO) campaigns deliver measurable results that increase website traffic, customer enquires, sales and ultimately online revenues. Efflux have the skills and knowledge to ensure our client websites increase rankings through SEO strategies and climb ahead of the competition within the organic search results.</p>
+                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">Our Search Engine Optimisation (SEO) campaigns deliver measurable results that increase website traffic, customer enquires, sales and ultimately online revenues. </p>
                     </div>
                         <div class="container">
                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Read More</button>
@@ -136,7 +136,7 @@
                     </div>
                     <div class="conten">
                         <h3>Web Analytics</h3>
-                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">The brain behind all online marketing services, a good web analytics package informs you to actions on your website and provides you with insights in to your key performance indicators. By means of our web analytics service we will constantly monitor your website’s usage and traffic. We can tell you what problems you’re having, on what pages something goes wrong.</p>
+                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">The brain behind all online marketing services, a good web analytics package informs you to actions on your website and provides you with insights in to your key performance indicators.</p>
                     </div>
                     <div class="container">
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Read More</button>
@@ -169,7 +169,7 @@
                     </div>
                    <div class="conten">
                         <h3>PPC(Pay Per Click)</h3>
-                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">Efflux team of PPC Managers are fully trained Google AdWord’s Professionals. In addition to in-depth AdWords expertise, we provide full-service biddable media campaign management for search engines and social media platforms, along with detailed reporting, one-on-one support and broad marketing guidance to help businesses make the most of their campaigns.</p>
+                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">Efflux team of PPC Managers are fully trained Google AdWord’s Professionals. In addition to in-depth AdWords expertise, we provide full-service biddable media campaign management for search engines and social media platforms.</p>
                     </div>
                     <div class="container">
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Read More</button>
@@ -182,7 +182,7 @@
                                     </div>
                                     <div class="modal-body">
                                         <p style="color: #000;font-size: 15px;font-family: Museo;line-height: 25px;">All of our PPC campaigns are set up to effectively measure the cost per sale or business enquiry. <br> <br> Below is a list of the tasks we will carry out during your PPC campaign.
-                                            <ul style="font-size: 15px;font-family: Museo;line-height: 25px;padding: 10px 0;">
+                                            <ul style="font-size: 15px;font-family: Museo;line-height: 25px;padding: 30px;">
                                                 <li>
                                                     Set up and optimise all campaigns, ad groups and keywords.
                                                 </li>
@@ -221,7 +221,7 @@
                     </div>
                    <div class="conten">
                         <h3>Social Media Advertising</h3>
-                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">Social media strategies require direction with clearly thought out objectives and targets. At Efflux, we create and manage bespoke social media campaigns that generate awareness, sales and enquires for your business.We believe Social media marketing is more than randomly posting on Facebook or throwing out a quick tweet when you feel inspired. It requires having a goal, a plan and a strategy. </p>
+                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">Social media strategies require direction with clearly thought out objectives and targets. At Efflux, we create and manage bespoke social media campaigns that generate awareness, sales and enquires for your business.</p>
                     </div>
                      <div class="container">
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Read More</button>
@@ -267,7 +267,7 @@
                                     </div>
                                     <div class="modal-body">
                                         <p style="color: #000;font-size: 15px;font-family: Museo;line-height: 25px;">We write for users with search engines in mind and never the other way round. Our SEO copywriting services include:
-                                            <ul style="font-size: 15px;font-family: Museo;line-height: 25px;padding: 10px 0;">
+                                            <ul style="font-size: 15px;font-family: Museo;line-height: 25px;padding: 30px;">
                                                 <li>
                                                     Keyword Research – Discover what your customers are searching for
                                                 </li>
@@ -336,7 +336,7 @@
                     </div>
                    <div class="conten">
                         <h3>Mobile App Access(RESPONSIVENESS)</h3>
-                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">There’s now an estimated 2.8 billion mobile devices in the world and smart phones are now outselling PC’s! We truly do live in a Mobile World and it is the reason that businesses now understand that a mobile website is a vital compliment to your desktop website and ensures your audience stays with you at all times.</p>
+                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">There’s now an estimated 2.8 billion mobile devices in the world and smart phones are now outselling PC’s! We truly do live in a Mobile World and it is the reason that businesses now understand that a mobile website is a vital compliment to your desktop website.</p>
                     </div>
                     <div class="container">
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6">Read More</button>
@@ -364,7 +364,7 @@
                     </div>
                     <div class="conten">
                         <h3>Training</h3>
-                        <p style="line-height:25px;font-size: 13px;font-family: Museo;margin-top: 30px;">Digital marketing is constantly evolving which is why we offer an impressive range of the latest training courses to accommodate your every digital marketing training need. Our vision is to train young and talented individuals to become change agents in the world  of ICT. We are therefore providing opportunity to raise a new breed of programmers and developers with exciting opportunity to learn from the best brains in the industry.</p>
+                        <p style="line-height:25px;font-size: 15px;font-family: Museo;margin-top: 30px;">Digital marketing is constantly evolving which is why we offer an impressive range of the latest training courses to accommodate your every digital marketing training need. Our vision is to train young and talented individuals to become change agents in the world  of ICT.</p>
                     </div>
                      <div class="container">
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal7">Read More</button>
