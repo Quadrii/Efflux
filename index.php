@@ -11,8 +11,7 @@
         <title>Efflux</title>
         <meta name="google-site-verification" content="59oMM4Evdlm5DecQmPYS5xwsv98sjYqu6DN5vcBq37Q" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-         <meta name="keywords" content="Responsive website Design, Best website, Efflux, post a job, 
-            Smartphone Compatible, free web designs" />
+         <meta name="keywords" content="Training, Nice, Lovely, design, websites, application, graphics, social media, digital marketing, responsive Web design in lagos, website designing services, Learn web design (training), web design, web design company" />
         <script src="angular.min.js"></script>
         <link rel="stylesheet" href="css/animate.css">
         <script src="js/modernizr.custom.js"></script>
@@ -86,35 +85,13 @@
             include ("header.php");
         ?>
 
-        <div class="" style="margin-top:-10px;">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                   <div class="item--1">
-                       
-                   </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="item--2">
-                        
-                    </div>
-                  </div>
-                
-                  <div class="item">
-                    <div class="item--3">
-                        
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="item--4">
-                        
-                    </div>
-                  </div>
-                </div>
-            </div>
+        <div class="w3-content w3-section" style="max-width:100%">
+          <img class="mySlides" src="images/connected.png" style="width:100%">
+          <img class="mySlides" src="images/code.png" style="width:100%">
+          <img class="mySlides" src="images/e4.png" style="width:100%">
+            <img class="mySlides" src="images/e5.png" style="width:100%">
         </div>
+
      
         <div class="" style="background:#fff;padding: 40px 0px;font-family: Museo; display: inline-block; width: 100%;background-size: cover;text-align: center;">
             <div class="container">
@@ -145,7 +122,7 @@
                     <div class="col-md-4" style="overflow: hidden;">
                         <span class="fa-stack fa-5x">
                             <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                            <i class="fa fa-envelope-open fa-stack-1x"></i>
+                            <i class="fa fa-american-sign-language-interpreting fa-stack-1x call" style="color: black;"></i>
                         </span>
                         <h2 class="h2">POST A JOB</h2>
                         <p class="p1">Tell us about your project. Is it a website design or web application design or a logo design or content write up? How urgent would you like to have it?</p> 
@@ -153,7 +130,7 @@
                     <div class="col-md-4" style="overflow: hidden;">
                         <span class="fa-stack fa-5x">
                             <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                            <i class="fa fa-user-o fa-stack-1x"></i>
+                            <i class="fa fa-user-o fa-stack-1x call" style="color: black;"></i>
                         </span>
                         <h2 class="h2">Talk To An Expert</h2>
                         <p class="p2">We'll match you with an expert to brainstorm and help you put together a workable plan with an affordable budget.</p>
@@ -161,7 +138,7 @@
                     <div class="col-md-4" style="overflow: hidden;">
                         <span class="fa-stack fa-5x">
                             <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                            <i class="fa fa-check fa-stack-1x"></i>
+                            <i class="fa fa-check fa-stack-1x call" style="color: black;"></i>
                         </span>
                         <h2 class="h2">Get The Work Done</h2>
                         <p class="p3">Sit back, relax and get updates on your project. We are confident based on our expertise and experience that you will be delighted.</p> 
@@ -193,7 +170,7 @@
                        <ul class="grid cs-style-4">
                             <li>
                                 <figure>
-                                    <div class="sou"><!-- <img src="images/outsourceit.png" alt="img05"> --></div>
+                                    <div class="sou"></div>
                                     <figcaption>
                                         <h3>Check Out</h3>
                                         <div class="span" style="text-align: center !important;">Some Of Our Works</div>
@@ -245,7 +222,7 @@
               });  
             });
         </script>
-
+            
         <script>
           var app = angular.module('myApp', []);
             app.controller('myCtrl', function($scope, $interval, $timeout , $interval , $http) {
@@ -270,5 +247,23 @@
             });
         </script>
         <script src="js/toucheffects.js"></script>
+
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+        </script>
 </body>
 </html>

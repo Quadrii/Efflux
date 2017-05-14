@@ -127,7 +127,7 @@
                                 <textarea class="form-control" rows="7" id="Description" name="Description" required></textarea>
                             </div>
                         </div>
-                        <input type="submit" value="Send Message" class="button">
+                        <input type="submit" value="post" class="button">
                     </form>
                 </div>
             </div>
