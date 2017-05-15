@@ -592,7 +592,7 @@ img{
 .content{
 	color: #000;
 	font-family: Museo;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: justify;
 	background: #fff;
 	padding: 30px 0px;
@@ -600,7 +600,7 @@ img{
 }
 @media(max-width:991px){
 	.content {
-	    font-size: 10px;
+	    font-size: 16px;
 	    height: auto;
 	    min-width: 50%;
 	}
