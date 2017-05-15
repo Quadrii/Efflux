@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en-GB">
     <head>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8786232419050151",
+            enable_page_level_ads: true
+          });
+        </script>
         <title>Efflux</title>
         <meta name="google-site-verification" content="59oMM4Evdlm5DecQmPYS5xwsv98sjYqu6DN5vcBq37Q" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
