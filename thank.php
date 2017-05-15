@@ -24,8 +24,8 @@
             });
         </script>
         <style>
-.mySlides {display:none;}
-</style>
+		.mySlides {display:none;}
+		</style>
 	</head>
 <body>
 	<div class="div animated fadeInRightBig" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRightBig;">
@@ -47,25 +47,25 @@
   		</div>
 	</div>
 		
-		<p class="text-primary text-center">
-            <a href="index.php" class="btn">Go Back To HomePage</a>
-        </p>
+	<p class="text-primary text-center">
+        <a href="index.php" class="btn">Go Back To HomePage</a>
+    </p>
 
 	<script>
-			var slideIndex = 0;
-			carousel();
+		var slideIndex = 0;
+		carousel();
 
-			function carousel() {
-			    var i;
-			    var x = document.getElementsByClassName("mySlides");
-			    for (i = 0; i < x.length; i++) {
-			      x[i].style.display = "none"; 
-			    }
-			    slideIndex++;
-			    if (slideIndex > x.length) {slideIndex = 1} 
-			    x[slideIndex-1].style.display = "block"; 
-			    setTimeout(carousel, 2000); 
-			}
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		      x[i].style.display = "none"; 
+		    }
+		    slideIndex++;
+		    if (slideIndex > x.length) {slideIndex = 1} 
+		    x[slideIndex-1].style.display = "block"; 
+		    setTimeout(carousel, 2000); 
+		}
 	</script>
 </body>
 </html>

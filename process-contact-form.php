@@ -5,9 +5,9 @@
 	$message = $_POST['Description'];
 	$formcontent = "From: $fullname \n Message: $message \n Email: $emailaddress \n Phone: $number";
 	$recipient = "info@effluxcompany.com";
-	$subject = "Contact Form";
+	$subject = "Efflux Contact Form";
 	$mailheader = "From: $email \r\n";
 
 	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-	header("Location: thankyou.html");
+	header("Location: thank.php");
 ?>
