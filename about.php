@@ -88,7 +88,7 @@
 
     	<div class="main_div">
     		<div class="container">
-              <div class="content">
+                <div class="content">
                     Efflux's vision is to build innovative, easy to use, and reliable digital marketing platform for business network. Efflux digital solutions network the countless businesses which enable your connected lifestyle and workplace. Building reliable digital business networking solutions since 2016. At Efflux , we connect you with what you value most.As an Information Technology company founded in Lagos, Nigeria. Efflux IT company has grown to become both leading local and global digital business marketing platform brand. From the business core to the periphery, Efflux's expansive product portfolio includes digital marketing, software development, online business integration, web designing, business connectivity and Peripheral business categories. An emphasis on continual improvement and our core quality management value is an essential component of Efflux’s success. The Efflux brand is consistently recognized for exceptional quality, superior performance, and responsive support.
                 </div>      
             </div>
@@ -98,7 +98,7 @@
     		<div class="row">
     			<h1 class="text-primary text-center  ours" style="margin:0px !important;">our mission <br> &mdash;</h1>
     			<div class="col-md-8">
-    				<p style="font-size:15px;font-family: Museo;margin-top: 50px;line-height: 25px;">At Efflux, our mission is to give each of our clients the best professional web presence , standard software development and digital marketing possible at an affordable price.We believe that a website should help your small business become more productive, more successful, and allow you to compete head-on with larger businesses without breaking the bank.We believe in giving individual attention to each of our clients, building a solid and lasting relationship based on trust and satisfaction.We believe in supporting and maintaining our work. After all, your website is a reflection of us, and your satisfaction is very important.Whether you need a new website or need to revamp your existing site, we can help! Our mission statement is to provide our client's with an excellent product that would help represent them in a positive, creative and thought provoking way. Develop a reputation of excellence and commitment to providing creative and thought provoking projects. Designs with meaning and purpose, is what we strive for in each and every project.</p>
+    				<p style="font-size:16px;font-family: Museo;margin-top: 50px;line-height: 25px;">At Efflux, our mission is to give each of our clients the best professional web presence , standard software development and digital marketing possible at an affordable price.We believe that a website should help your small business become more productive, more successful, and allow you to compete head-on with larger businesses without breaking the bank.We believe in giving individual attention to each of our clients, building a solid and lasting relationship based on trust and satisfaction.We believe in supporting and maintaining our work. After all, your website is a reflection of us, and your satisfaction is very important.Whether you need a new website or need to revamp your existing site, we can help! Our mission statement is to provide our client's with an excellent product that would help represent them in a positive, creative and thought provoking way. Develop a reputation of excellence and commitment to providing creative and thought provoking projects. Designs with meaning and purpose, is what we strive for in each and every project.</p>
     			</div>
     			<div class="col-md-4" style="margin-top: 30px;">
     				<div class="bar">
@@ -118,7 +118,7 @@
     							<th style="text-align: center;text-transform: uppercase;font-size: 40px !important;padding-top: 20px;letter-spacing: 5px;font-size: 20px;font-family: Museo;">core values <br> &mdash;</th>
     						</tr>
     						<tr>
-    							<td style="padding-top: 20px;font-family: Museo;text-align: justify;font-size: 18px;">
+    							<td style="padding-top: 20px;font-family: Museo;text-align: justify;font-size: 16px;">
     								Efflux's core values are focus on talent development, passion, adaptability, thinking big, and learning from our mistakes. We seek to create sustainable success and uphold the integrity of Efflux’s brand through these values, which have been shaped by our experiences, lessons, and challenges.
     							</td>
     						</tr>
