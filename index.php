@@ -28,6 +28,7 @@
         <meta name="google-site-verification" content="59oMM4Evdlm5DecQmPYS5xwsv98sjYqu6DN5vcBq37Q" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="Training, Nice, Lovely, design, websites, application, graphics, social media, digital marketing, responsive Web design in lagos, website designing services, Learn web design (training), web design, web design company" />
+        <meta name="viewport" content="width=device-width" />
         <script src="angular.min.js"></script>
         <link rel="stylesheet" href="css/animate.css">
         <script src="js/modernizr.custom.js"></script>
@@ -105,7 +106,7 @@
           <img class="mySlides" src="images/connected.png" style="width:100%">
           <img class="mySlides" src="images/code.png" style="width:100%">
           <img class="mySlides" src="images/e4.png" style="width:100%">
-            <img class="mySlides" src="images/e5.png" style="width:100%">
+          <img class="mySlides" src="images/e5.png" style="width:100%">
         </div>
 
      

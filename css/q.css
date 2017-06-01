@@ -182,10 +182,12 @@ td{
 	text-align: center !important;
 	padding: 40px;
 }
+
 @media(max-width:991px){
 	.h21 {
-	    font-size: 15px;
+	    font-size: 20px;
 	    font-family: Museo;
+	    line-height: 27px;
 	}
 }
 .p1{
@@ -503,13 +505,15 @@ footer{
     width: 31%;
     text-decoration: none;
 }
-@media(max-width:991px){
-	.btn {
-	    font-size: 15px;
-	    height: auto;
-	    min-width: 80%;
-	}
+
+@media screen and (max-width: 991px) {
+    .btn{
+        font-size:5px;
+        height: auto;
+        width: auto;
+    }
 }
+
 
 .bar{
 	background-image: url(../images/3.jpg);
