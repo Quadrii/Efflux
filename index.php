@@ -90,7 +90,7 @@
           <img class="mySlides" src="images/connected.png" style="width:100%">
           <img class="mySlides" src="images/code.png" style="width:100%">
           <img class="mySlides" src="images/e4.png" style="width:100%">
-            <img class="mySlides" src="images/e5.png" style="width:100%">
+          <img class="mySlides" src="images/e5.png" style="width:100%">
         </div>
 
      
