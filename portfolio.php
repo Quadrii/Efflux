@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 	<head>
+        <link rel="icon" href="favicon.png" sizes="16x16 32x32" type="image/png">
          <!-- Facebook Pixel Code -->
             <script>
             !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?

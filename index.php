@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en-GB">
     <head>
+        <link rel="icon" href="favicon.png" sizes="16x16 32x32" type="image/png">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <script>
           (adsbygoogle = window.adsbygoogle || []).push({
