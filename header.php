@@ -72,7 +72,7 @@
                 </a>
             </li>
             <li class="class" >
-                <a href="http://effluxcompany.com/affiliate/" class="link" style="font-family: Museo;">
+                <a href="http://effluxcompany.com/affiliate/" class="link" style="font-family: Museo;" target="_blank">
                     <table>
                         <tbody>
                             <tr>
