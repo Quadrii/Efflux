@@ -71,6 +71,22 @@
                     </table>
                 </a>
             </li>
+            <li class="class" >
+                <a href="http://effluxcompany.com/affiliate/" class="link" style="font-family: Museo;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td style="text-align: left;">
+                                    Become Affiliate
+                                </td>
+                                <td style="text-align: right;">
+                                    <i class="fa fa-credit-card" aria-hidden="true" style="font-size: 20px;"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </a>
+            </li>
              <li class="class" >
                 <a href="quote.php" class="link" style="font-family: Museo;">
                     <table>
